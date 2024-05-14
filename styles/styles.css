@@ -31,7 +31,7 @@ main {
 aside {
   width: 23rem;
   text-align: center;
-  position:relative
+  position:relative;
 }
 aside img {
   width: 200px;
