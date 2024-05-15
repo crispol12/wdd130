@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1200px;
+    padding: 20px;
+}
+:root {
+    --primary-color:#113098 ;
+    --secondary-color:#13baf6 ;
+    --accent1-color:#f3972e ;
+    --accent2-color:#b0fa96 ;
+  
+    --heading-font: "Poppins", sans-serif ;
+    --paragraph-font:"Poppins", sans-serif ;
+    
+    --nav-background-color:#b0fa96 ;
+    --nav-link-color:#f3972e ;
+    --nav-hover-link-color:#13baf6 ;
+    --nav-hover-background-color:#113098 ;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+nav a {
+    display: block; 
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;  
+  }
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+.sociallinks {
+    text-decoration: none;
+} 
+.hero img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+.hero h1 {
+    width: 62%;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translateX(-50%);
+    color: var(--accent2-color);
+    background-color: rgba(44, 62, 80, 0.7); /* Dark background with opacity */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.hero article {
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+    background-color: rgba(87, 92, 94, 0.8); 
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 50%;
+    text-align: left;
+    color: var(--accent2-color);
+}
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px; 
+    height: auto;
+}
+
