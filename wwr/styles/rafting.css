@@ -57,10 +57,10 @@ nav a:hover {
     height:auto;
 }
 .hero h1 {
-    width: 59%;
+    width: 60%;
     position: absolute;
     top: 50%;
-    left: 33%;
+    left: 34%;
     transform: translateX(-50%);
     color: var(--accent2-color);
     background-color: rgba(44, 62, 80, 0.7); /* Dark background with opacity */
