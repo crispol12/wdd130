@@ -44,6 +44,7 @@ main {
 }
 aside {
   width: 20rem;
+  height: 30rem;
   text-align: center;
   position:relative;
   grid-column: 1/2;
@@ -51,7 +52,7 @@ aside {
 }
 aside img {
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 aside h2 {
   position: absolute;
