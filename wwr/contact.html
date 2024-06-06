@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riverfly Rafting and Landscape| About Us </title>
-    <meta name="description" content="About us and Our Services">
+    <title>Contact| Contact Us </title>
+    <meta name="description" content="Contact us and known our company">
     <meta name="author" content="Christian Castillo">
     <link rel="stylesheet"  href="styles/rafting.css">
   </head>
@@ -21,55 +21,78 @@
       </nav>
     </header>
     <main>
-      <div class="hero">
-        <img src="images/raftinghero.jpg" alt="Rafting and Landscape">
-        <h1>Riverfly Rafting and Landscaping</h1>
-        <article>
-          <img src="images/happyclient.png" alt="Happy Customer">
-          <p>Riverfly Rafting and landscape is an adventure tourism company created for people to enjoy the beautiful 
-            landscapes we visit. The rivers and their currents will make you experience the most adrenaline of your life, 
-            which will take you for moments to heaven, visit us and we will join you on the trip.
-          </p>
-        </article>
-      </div>
-      <section class="history">
-        <h2>History</h2>
-        <div class="history-content">
-          <p>Our adventure began 10 years ago after visiting the Grand Canyon. Christian had an epiphany, the rivers are the answer
-           to the enjoyment of the people, their currents and the beauty that surrounds them, are the key to take hours of routine, 
-           so this company was created that over the years is still worth it, dreams come true for everyone.
-          Every morning that we visit the rivers with the people, a feeling of fullness invades us, remembering the laughter and emotions 
-          that we will make everyone feel, come and visit us.
-          </p>
-          <img src="images/history.jpg" alt="History" class="history-image">
-        </div>
+      <section class="company-info">
+          <img src="images/landscape.jpg" alt="Landscape" width="1200">
+          <div class="info-float">
+            <h2>Riverfly Information</h2>
+            <p><strong>Address:</strong> N 22nd St & W Bannock St, Boise, ID, 83702</p>
+            <p><strong>Phone:</strong>(208)4450402</p>
+            <p><strong>Email:</strong> <a href="mailto:info@riverfly.com">info@riverfly.com</a></p>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.0892114475505!2d-116.21824126104417!3d43.6236452343938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8c334fe3d17%3A0xd70d413a6874e0c3!2sN%2022nd%20St%20%26%20W%20Bannock%20St%2C%20Boise%2C%20ID%2083702%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sec!4v1717704711135!5m2!1ses-419!2sec" width="100" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+            </div>
+          </div>
+
       </section>
-      <section class="adventures">
-        <h2>Adventure Awaits You!</h2>
-        <div class="adventure-gallery">
-          <figure>
-            <img src="images/enjoying.jpg" alt="Total Fun">
-            <figcaption>Total Fun</figcaption>
-          </figure>
-          <figure>
-            <img src="images/canyon.jpg" alt="Wonderful Landscape">
-            <figcaption>Wonderful Landscape</figcaption>
-          </figure>
-          <figure>
-            <img src="images/rivercave.jpg" alt="Magic Trip">
-            <figcaption>Magic Trip</figcaption>
-          </figure>
-          <figure>
-            <img src="images/riverflow.jpg" alt="Mistic River">
-            <figcaption>Mistic River</figcaption>
-          </figure>
-          <figure>
-            <img src="images/adventure.jpg" alt="Adventure">
-            <figcaption>Adventure</figcaption>
-          </figure>
-        </div>
+      
+      <section class="team">
+          <h2>Meet Our Team</h2>
+          <div class="employees">
+            <div class="employee">
+              <img src="images/Paul.jpeg" alt="Paul Castillo CEO">
+              <p>Paul Castillo - CEO</p>
+            </div>
+            <div class="employee">
+              <img src="images/Walter.jpg" alt="Walter Parker COO">
+              <p>Walter Parker - COO</p>
+            </div>
+            <div class="employee">
+              <img src="images/Julia.jpg" alt="Julia Swanson CMO">
+              <p>Julia Swanson - CMO</p>
+            </div>
+          </div>
       </section>
-    </main>
+      
+      <section class="contact-form">
+          <h2>Contact Us</h2>
+          <form action="#" method="post">
+              <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                  <label>Purpose of Message:</label>
+                  <div>
+                      <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                      <label for="inquiry">General Inquiry</label>
+                  </div>
+                  <div>
+                      <input type="radio" id="reservation" name="purpose" value="reservation">
+                      <label for="reservation">Reservation Question</label>
+                  </div>
+                  <div>
+                      <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                      <label for="suggestion">Website Suggestion</label>
+                  </div>
+              </div>
+              <div>
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div>
+                  <input type="checkbox" id="subscribe" name="subscribe">
+                  <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+              </div>
+              <div>
+                  <button type="submit">Submit Message</button>
+              </div>
+          </form>
+      </section>
+  </main>
     <footer>
       <p>©️2024 🚵‍♀️ Riverfly 🚵‍♀️ Christian Castillo</p>
       <nav class="sociallinks">
