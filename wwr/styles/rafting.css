@@ -286,7 +286,74 @@ h2 {
 .contact-form button:hover {
     background-color: #45a049;
 }
+.full-width-image {
+    position: relative;
+    text-align: center;
+}
+  
+.full-width-image img {
+    width: 100%;
+    height: auto;
+}
+  
+.full-width-image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
 
+.newsletter-signup, .call-to-action {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-color);
+}
+  
+form label, form input, form button {
+    margin: 5px 0;
+}
+
+form button {
+    background-color: var(--accent2-color);
+    color: var(--nav-hover-background-color);
+}
+  
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+  
+.grid-item {
+    text-align: center;
+}
+  
+.grid-item img {
+    width: 50%;
+    height: 50%;
+}
+  
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+  
+.cta-button:hover {
+    background-color: #0056b3;
+}
+  
 footer {
     display: flex;
     justify-content: space-between;
