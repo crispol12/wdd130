@@ -353,7 +353,71 @@ form button {
 .cta-button:hover {
     background-color: #0056b3;
 }
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
   
+.call-to-action p {
+    margin: 10px 0;
+}
+  
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.trip-descriptions {
+    margin: 20px 0;
+}
+  
+.trips-flex {
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+  
+.trip {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+  
+.trip img {
+    width: 30%;
+    height: 30%;
+    border-radius: 5px 5px 0 0;
+}
+  
+.trips-table {
+    margin: 20px 0;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
 footer {
     display: flex;
     justify-content: space-between;
